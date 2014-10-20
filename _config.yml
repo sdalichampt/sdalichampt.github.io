@@ -7,6 +7,7 @@ teaser: teasers/default_400x250.png
 locale: fr
 baseurl: ''
 siteurl: http://www.dalichampt.fr
+ads: true
 
 # Jekyll configuration
 
@@ -20,11 +21,11 @@ paginate: 7
 paginate_path: /:num
 gems:
   - jekyll-sitemap
-exclude: [README.md, _site/, sdalichampt.github.io.iml]
-ads: true
+exclude: [README.md, CNAME, sdalichampt.github.io.iml]
 
 
 # Site owner
+
 owner:
   name: Samuel DALICHAMPT
   email:
