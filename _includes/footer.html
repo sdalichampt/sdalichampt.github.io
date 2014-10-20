@@ -1,0 +1,10 @@
+<footer id="site-footer" class="wrapper">
+    <nav id="bottom-menu" role="navigation" class="menu">
+        <ul class="menu-item">
+            {% for link in site.data.footer %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% include license.html %}
+</footer>

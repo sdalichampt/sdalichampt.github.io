@@ -1,0 +1,40 @@
+# Site wide configuration
+
+title: Mon petit blog a moi
+description: Juste un blog de plus de la part d'un developpeur pationné. Réflexion, découverte, petit trucs. Je pose ici ce qui me passe dans la tête et sur le clavier.
+logo: logo_120x120.jpeg # 120x120 px default image used for Twitter summary card
+teaser: teasers/default_400x250.png
+locale: fr
+baseurl: ''
+siteurl: http://www.dalichampt.fr
+
+# Jekyll configuration
+
+sass:
+    sass_dir: css/_scss
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+paginate: 7
+paginate_path: /:num
+gems:
+  - jekyll-sitemap
+exclude: [README.md, _site/, sdalichampt.github.io.iml]
+ads: true
+
+
+# Site owner
+
+owner:
+  name: Samuel DALICHAMPT
+  email:
+  twitter: sdalichampt
+  google:
+    ad-client: ca-pub-4757493567859968
+    ad-slot: 3584917115
+    ga-id: UA-55132671-1
+  bio: Maître des lieux
+  gravatar: b42ae03956217a57fc702b278c3ee645
+livefyre-site-id: 366445
+simpleform-public-token: f102708419dad94776d8c49405676bfa

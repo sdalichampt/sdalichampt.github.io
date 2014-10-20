@@ -1,0 +1,30 @@
+---
+layout: media
+permalink: /contact.html
+title: "Me contacter"
+---
+
+<div id="contact-form" class="wrapper">
+    <form role="form" action="http://getsimpleform.com/messages?form_api_token={{ site.simpleform-public-token }}" method="post">
+        <input type='hidden' name='redirect_to' value='{{ site.siteurl }}' />
+        <div class="form-group">
+            <label for="email">Adresse email</label>
+            <input name='email' type="email" class="form-control" id="email" placeholder="Adresse email">
+        </div>
+        <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input name='Subject'  type="text" class="form-control" id="subject" placeholder="Sujet">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name='message' type="text" class="form-control" id="message" placeholder="Message" rows='20'></textarea>
+        </div>
+        <div class="form-group">
+            <label>Fichier</label>
+            <input type="file" name="fichier" class="form-control">
+        </div>
+        <div class="form-group">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+</div>

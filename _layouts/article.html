@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="page">
+	{% include breadcrumbs.html %}
+	<article itemscope itemtype="http://schema.org/Article">
+		<div class="article-title">
+		    <h1>{{ page.title }}</h1>
+		</div>
+		<div>
+		    <div class="article-content" itemprop="articleBody">
+		        {{ content }}
+		    </div>
+            <hr />
+            <footer class="article-footer">
+                {% include page-author.html %}
+                {% include share-links.html %}
+                {% include page-meta.html %}
+            </footer>
+            <aside>
+                {% if page.comments != false %}
+                    {% include comments.html %}
+                {% endif %}
+            </aside>
+		</div>
+	</article>
+</div>

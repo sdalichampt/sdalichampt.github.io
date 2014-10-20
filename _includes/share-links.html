@@ -1,0 +1,11 @@
+<div id="share-links">
+	<a class="link twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ site.owner.twitter }}" target="_blank">
+        <i class="fa-twitter" aria-hidden="true"></i> Partager sur Twitter
+    </a>
+	<a class="link google-plus"  href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank">
+        <i class="fa-google-plus" aria-hidden="true"></i> Partager sur Google+
+    </a>
+    <a class="link facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank">
+        <i class="fa-facebook" aria-hidden="true"></i> Partager sur Facebook
+    </a>
+</div>

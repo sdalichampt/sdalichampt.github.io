@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}
+    {% else %}
+      {% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
+    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+
+    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+    <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+  <script src="{{ site.baseurl }}/js/jquery-2.1.1.min.js"></script>
+  <script src="{{ site.baseurl }}/js/main.js"></script>
+
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+  </head>
+
+  <body>
+
+    {% include header.html %}
+
+    <div id="site-content" class="wrapper">
+
+	  {% if site.ads == true %}
+	    {% include advertising.html %}
+	  {% endif %}
+
+      {{ content }}
+
+    </div>
+
+    {% include footer.html %}
+
+    {% if site.host != '0.0.0.0' %}
+        {% include analytics.html %}
+    {% endif %}
+
+
+  </body>
+
+</html>

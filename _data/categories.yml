@@ -1,0 +1,22 @@
+
+
+autre:
+  label: Autre
+  teaser: teasers/autre_400x250.png
+
+developpement:
+  label: Developpement
+  teaser: teasers/developpement_400x250.png
+
+linux:
+  label: Linux
+  teaser: teasers/linux_400x250.png
+
+moi:
+  label: Moi
+  teaser: teasers/moi_400x250.png
+
+rencontre:
+  label: Rencontre
+  teaser: teasers/rencontre_400x250.png
+

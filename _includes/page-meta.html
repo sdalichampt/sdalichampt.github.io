@@ -1,0 +1,46 @@
+{% if page.date %}
+    <div class="article-date">
+        Publié le
+        <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
+            {% assign m = page.date | date: "%-m" %}
+            {{ page.date | date: "%-d" }}
+            {% case m %}
+            {% when '1' %}Janvier
+            {% when '2' %}Février
+            {% when '3' %}Mars
+            {% when '4' %}Avril
+            {% when '5' %}Mai
+            {% when '6' %}Juin
+            {% when '7' %}Juillet
+            {% when '8' %}Août
+            {% when '9' %}September
+            {% when '10' %}October
+            {% when '11' %}November
+            {% when '12' %}December
+            {% endcase %}
+            {{ page.date | date: "%Y" }}
+        </time>
+        {% if page.modified %}
+            puis mis à jour le
+            <time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
+                {% assign m = page.modified | date: "%-m" %}
+                {{ page.modified | date: "%-d" }}
+                {% case m %}
+                    {% when '1' %}Janvier
+                    {% when '2' %}Février
+                    {% when '3' %}Mars
+                    {% when '4' %}Avril
+                    {% when '5' %}Mai
+                    {% when '6' %}Juin
+                    {% when '7' %}Juillet
+                    {% when '8' %}Août
+                    {% when '9' %}September
+                    {% when '10' %}October
+                    {% when '11' %}November
+                    {% when '12' %}December
+                {% endcase %}
+                {{ page.modified | date: "%Y" }}
+            </time>
+        {% endif %}
+    </div>
+{% endif %}

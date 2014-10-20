@@ -1,0 +1,38 @@
+<article itemscope itemtype="http://schema.org/Article">
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="article-teaser">
+        {% if post.image.teaser %}
+            <img src="{{ site.baseurl }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image">
+        {% elsif (post.category and site.data.categories[post.category] and site.data.categories[post.category].teaser) %}
+            <img src="{{ site.baseurl }}/images/{{ site.data.categories[post.category].teaser }}" alt="teaser" itemprop="image">
+        {% else %}
+            <img src="{{ site.baseurl }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
+        {% endif %}
+    </a>
+    {% if post.date %}
+        <p class="article-date">
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
+                {% case m %}
+                    {% when '1' %}Janvier
+                    {% when '2' %}Février
+                    {% when '3' %}Mars
+                    {% when '4' %}Avril
+                    {% when '5' %}Mai
+                    {% when '6' %}Juin
+                    {% when '7' %}Juillet
+                    {% when '8' %}Août
+                    {% when '9' %}September
+                    {% when '10' %}October
+                    {% when '11' %}November
+                    {% when '12' %}December
+                {% endcase %}
+                {{ post.date | date: "%Y" }}
+            </time>
+        </p>
+    {% endif %}
+    <h2 class="article-title" itemprop="name">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p class="article-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+</article>

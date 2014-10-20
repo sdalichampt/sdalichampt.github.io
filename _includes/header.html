@@ -1,0 +1,10 @@
+<header id="site-header" class="wrapper">
+    <a href="{{ site.baseurl }}/" class="site-title">{{ site.title}}</a>
+    <nav id="top-menu" role="navigation" class="menu">
+        <ul class="menu-item">
+            {% for link in site.data.navigation %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
