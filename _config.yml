@@ -16,7 +16,7 @@ sass:
     style: compressed
 markdown: kramdown
 highlighter: pygments
-paginate: 6
+paginate: 12
 paginate_path: page:num
 permalink: /:categories/:title/
 gems:
