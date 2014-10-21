@@ -14,11 +14,11 @@ ads: true
 sass:
     sass_dir: css/_scss
     style: compressed
-permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
-paginate: 7
-paginate_path: /:num
+paginate: 6
+paginate_path: page:num
+permalink: /:categories/:title/
 gems:
   - jekyll-sitemap
 exclude: [README.md, CNAME, sdalichampt.github.io.iml]

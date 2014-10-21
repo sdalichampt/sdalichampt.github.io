@@ -101,7 +101,6 @@ a, a:visited {
       display: inline-block;
       width: $post-grid-width;
       margin-right: 22px;
-      margin-bottom: 50px;
       vertical-align: top;
 
       &:nth-child(3n) {
@@ -326,4 +325,24 @@ a, a:visited {
       list-style-image: none;
     }
   }
+}
+
+.pagination {
+  text-align: center;
+
+  .pagination-next {
+    float: left;
+    min-width: 150px;
+    text-align: left;
+  }
+
+  .pagination-previous {
+    float: right;
+    min-width: 150px;
+    text-align: right;
+  }
+}
+
+article {
+  margin-bottom: 50px;
 }

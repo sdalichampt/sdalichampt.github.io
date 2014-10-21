@@ -18,11 +18,30 @@ layout: default
                 {% include share-links.html %}
                 {% include page-meta.html %}
             </footer>
-            <aside>
-                {% if page.comments != false %}
+            {% if page.comments != false %}
+                <aside>
                     {% include comments.html %}
-                {% endif %}
-            </aside>
+                </aside>
+            {% endif %}
 		</div>
 	</article>
+    <hr />
+    <div class="pagination">
+        {% if page.next %}
+        <a href="{{ page.next.url }}" title="{{ page.next.title }}">
+            <span class="pagination-next">article suivant</span>
+        </a>
+        {% else %}
+        <span class="pagination-next">&nbsp;</span>
+        {% endif %}
+        &nbsp;
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+            <span class="pagination-previous">article précédant</span>
+        </a>
+        {% else %}
+            <span class="pagination-previous">&nbsp;</span>
+        {% endif %}
+    </div>
+    <hr />
 </div>
