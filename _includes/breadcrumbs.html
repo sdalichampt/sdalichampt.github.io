@@ -1,8 +1,12 @@
 <nav class="breadcrumbs">
-	<a href="{{ site.baseurl }}">Home</a>
-	<span class="divider">/</span> 
-	{% if page.category %}
-		<a href="{{ site.url }}/{{ page.category }}/">{{ site.data.categories[page.category].label }}</a>
-		<span class="divider">/</span>
-	{% endif %}
+    {{ site.data.categories[page.category].label }}
+    {% if page.tags != empty %}
+        <span class="divider">&gt;</span>
+        {% for tag in page.tags %}
+            {{ tag }}
+            {% if forloop.last == false %}
+                <span class="divider">/</span>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 </nav>
