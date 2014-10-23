@@ -138,9 +138,18 @@ a, a:visited {
       margin-bottom: 10px;
     }
 
-    li {
-      margin-left: 30px;
-      list-style: disc;
+    ol {
+      li {
+        margin-left: 60px;
+        list-style-type: decimal;
+      }
+    }
+
+    ul {
+      li {
+        margin-left: 60px;
+        list-style: disc;
+      }
     }
 
     .highlight {
