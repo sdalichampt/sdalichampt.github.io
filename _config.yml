@@ -8,6 +8,7 @@ locale: fr
 baseurl: ''
 siteurl: http://www.dalichampt.fr
 ads: true
+mod: prod
 
 # Jekyll configuration
 
