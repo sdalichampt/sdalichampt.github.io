@@ -59,7 +59,7 @@ teste croisé. Ils me demandent alors d'activer la carte reçue la semaine pass�
 de la carte. Celle-ci entrera en fonction le 5 octobre à 15h00. Parallèlement à cela, le service technique doit me
 rappeler sous 15 jours pour mon problème initial. Trouvant le délais de 15 jours un peu long on me rassure en me disant
 qu'un geste commercial sera fait pour cette période. Cette appel me fait alors
-[me poser des questions sur le sérieux de Virgin]({% post_url 2012/2012-09-26-stockage-de-mot-de-passe-en-clair-mauvaise-pratique-chez-mon-opérateur-mobile %}).
+[me poser des questions sur le sérieux de Virgin]({% post_url 2012/2012-09-26-stockage-de-mot-de-passe-en-clair-mauvaise-pratique-chez-mon-operateur-mobile %}).
 
 *5 octobre 2012 vers 15h20* après 11 jours sans mobile, ma nouvelle carte SIM s'active. J'ai perdu tout mes paramètres
 que je ressaisis à nouveau et je me rend alors compte que je suis maintenant connecté sur le réseau SFR.
