@@ -3,20 +3,25 @@
 autre:
   label: Autre
   teaser: teasers/autre_400x250.png
+  disqus-id: 3331842
 
 developpement:
   label: Developpement
   teaser: teasers/developpement_400x250.png
+  disqus-id: 3331843
 
 linux:
   label: Linux
   teaser: teasers/linux_400x250.png
+  disqus-id: 3331844
 
 moi:
   label: Moi
   teaser: teasers/moi_400x250.png
+  disqus-id: 3331840
 
 rencontre:
   label: Rencontre
   teaser: teasers/rencontre_400x250.png
+  disqus-id: 3331841
 
