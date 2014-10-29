@@ -30,7 +30,7 @@ Tout est prêt maintenant pour ouvrir mes onglets en une seule ligne de commande
 {% highlight bash %}
 gnome-terminal
 	--tab-with-profile=sshremote --title=SERVEUR1 -e 'ssh serveur1' 
-	--tab-with-profile=sshremote --title=SERVEUR1 -e 'ssh serveur2' 
+	--tab-with-profile=sshremote --title=SERVEUR2 -e 'ssh serveur2' 
 	...
 {% endhighlight %}
 
