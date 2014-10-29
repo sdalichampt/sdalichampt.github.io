@@ -5,7 +5,7 @@ title: "Me contacter"
 
 <div id="contact-form" class="wrapper">
     <form role="form" action="http://getsimpleform.com/messages?form_api_token={{ site.simpleform-public-token }}" method="post" enctype="multipart/form-data">
-        <input type='hidden' name='redirect_to' value='{{ site.siteurl }}' />
+        <input type='hidden' name='redirect_to' value='{{ site.url }}' />
         <div class="form-group">
             <label for="email">Adresse email</label>
             <input name='email' type="email" class="form-control" id="email" placeholder="Adresse email">

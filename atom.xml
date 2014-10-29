@@ -3,19 +3,14 @@ limit: 25
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    {% if site.url %}
-        {% assign base = site.url %}
-    {% elsif site.github.url %}
-        {% assign base = site.github.url %}
-    {% endif %}
     <title>{{ site.title }}</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v{{ jekyll.version }}</generator>
 	<icon>{{ site.url }}/apple-touch-icon-precomposed.png</icon>
     <subtitle>{{ site.description }}</subtitle>
-    <link href="{{ base }}{{ page.url }}" rel="self"/>
-    <link href="{{ base }}/" rel="alternate" type="text/html"/>
+    <link href="{{ site.url }}{{ page.url }}" rel="self"/>
+    <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>{{ base }}/</id>
+    <id>{{ site.url }}/</id>
     <author>
 	    <name>{{ site.owner.name | xml_escape }}</name>
 		<uri>{{ site.url }}/</uri>
@@ -25,9 +20,9 @@ limit: 25
     {% for post in site.posts limit: page.limit %}
         <entry>
             <title>{{ post.title | xml_escape }}</title>
-            <link href="{{ base }}{{ post.url }}"/>
+            <link href="{{ site.url }}{{ post.url }}"/>
             <updated>{{ post.date | date_to_xmlschema }}</updated>
-            <id>{{ base }}{{ post.id }}</id>
+            <id>{{ site.url }}{{ post.id }}</id>
             <author>
                 <name>{{ site.owner.name | xml_escape }}</name>
                 <uri>{{ site.url }}/</uri>
