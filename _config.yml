@@ -2,7 +2,7 @@
 
 title: Mon petit blog a moi
 description: Juste un blog de plus de la part d'un developpeur pationné. Réflexion, découverte, petit trucs. Je pose ici ce qui me passe dans la tête et sur le clavier.
-logo: logo_120x120.jpeg # 120x120 px default image used for Twitter summary card
+logo: logo_120x120.png
 teaser: teasers/default_400x250.png
 locale: fr
 baseurl: ''
