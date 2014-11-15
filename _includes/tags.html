@@ -1,0 +1,9 @@
+<nav class="tags">
+	{% if page.tags != empty %}		
+		<ul>
+			{% for tag in page.tags %}
+				<li class="fa fa-tag">{{ tag }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</nav>
