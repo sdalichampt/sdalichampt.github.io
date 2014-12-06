@@ -41,7 +41,7 @@ Voyons comment mettre en place les dépôts pour démarrer la collaboration :
 * Rémy donne l'URL de son Gist à Samuel
 * Samuel ajout le dépot de Rémy à sa liste de dépot distant
 
-{% highlight bash %}git remote add remy https://gist.github.com/URL_PRIVEE_DE_REMYL_GIST.git{% endhighlight %}
+{% highlight bash %}git remote add remy https://gist.github.com/URL_PRIVEE_DE_REMY_GIST.git{% endhighlight %}
 
 Tout est maintenant en place et nous pouvons à modifier localement nos fichiers et commiter ces modifications dans notre dépot locale.
 
