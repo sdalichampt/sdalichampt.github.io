@@ -1,6 +1,4 @@
 _site
 _drafts
 .sass-cache
-.idea
-*.iml
 _configdev.yml

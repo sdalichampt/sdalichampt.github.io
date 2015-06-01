@@ -19,8 +19,7 @@ highlighter: pygments
 paginate: 12
 paginate_path: page:num
 permalink: /:categories/:title/
-gems:
-  - jekyll-sitemap
+gems: [jekyll-sitemap]
 exclude: [README.md, CNAME, sdalichampt.github.io.iml]
 
 
