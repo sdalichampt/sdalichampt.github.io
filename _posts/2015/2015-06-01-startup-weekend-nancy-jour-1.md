@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Startup WeekEnd Nancy - Jour 1
+title: Startup WeekEnd Nancy - Jour 1.
 category: rencontre
 image:
   teaser: teasers/startupweekend_400x250.png

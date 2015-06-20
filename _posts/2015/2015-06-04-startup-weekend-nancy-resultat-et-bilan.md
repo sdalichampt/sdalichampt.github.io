@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Startup WeekEnd Nancy - Résultat et bilan
+title: Startup WeekEnd Nancy - Résultat et bilan.
 category: rencontre
 image:
   teaser: teasers/startupweekend_400x250.png
