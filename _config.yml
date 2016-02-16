@@ -14,12 +14,10 @@ ads: true
 sass:
     sass_dir: css/_scss
     style: compressed
-markdown: kramdown
-highlighter: pygments
 paginate: 12
 paginate_path: page:num
 permalink: /:categories/:title/
-gems: [jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-gist]
 exclude: [README.md, CNAME, sdalichampt.github.io.iml]
 
 

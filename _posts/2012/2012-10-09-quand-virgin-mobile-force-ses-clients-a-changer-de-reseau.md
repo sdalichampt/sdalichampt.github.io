@@ -25,33 +25,33 @@ pose la question au Community Manager de Virgin [qui me confirme qu'ils ne quitt
 
 [![Tweet Virgin Mobile](/images/2012/TweetVirginMobile_p.png "Tweet Virgin Mobile")](/images/2012/TweetVirginMobile_g.png)
 
-*Juin 2011* suite à un appel du service fidélisation de Virgin Mobile, je prolonge mon engagement de 2 ans contre une 
+*Juin 2011* suite à un appel du service fidélisation de Virgin Mobile, je prolonge mon engagement de 2 ans contre une
 baisse de 3€ par mois de ma facture.
 
-*novembre 2011* Virgin Mobile change [les conditions générales d'abonnement](http://www.virginmobile.fr/cga.htm "GCA VIrgin Mobile actuelles"), 
-l'opérateur de réseau étant mainteant soit Orange, soit SFR. Cela passe évidement inaperçu, tant les termes sont vagues. 
+*novembre 2011* Virgin Mobile change [les conditions générales d'abonnement](http://www.virginmobile.fr/cga.htm "GCA VIrgin Mobile actuelles"),
+l'opérateur de réseau étant mainteant soit Orange, soit SFR. Cela passe évidement inaperçu, tant les termes sont vagues.
 Il n'y a d'ailleurs aucun changement visible au quotidien.
 
-> L’Opérateur de Réseau: organisme autorisé à établir et à exploiter un réseau national de radiotéléphonie numérique 
-sous les normes européennes GSM et UMTS. Les services fournis par Virgin Mobile sont délivrés en utilisant pour les 
-départs d’appels <strong>soit le réseau Orange France, soit le réseau SFR</strong> ou tout autre opérateur exploitant 
+> L’Opérateur de Réseau: organisme autorisé à établir et à exploiter un réseau national de radiotéléphonie numérique
+sous les normes européennes GSM et UMTS. Les services fournis par Virgin Mobile sont délivrés en utilisant pour les
+départs d’appels <strong>soit le réseau Orange France, soit le réseau SFR</strong> ou tout autre opérateur exploitant
 un réseau radioélectrique ouvert au public sur le territoire métropolitain.
 
 *L'emphase est de moi*
 
-*21 septembre 2012* je reçois par courrier ma "nouvelle carte SIM". Je n'ai rien demandé, mais si Virgin à besoin que je 
-change ma carte pour mettre à jour leur réseau, pourquoi pas. Le courrier ne détail pas les raisons du changement. J'ai 
+*21 septembre 2012* je reçois par courrier ma "nouvelle carte SIM". Je n'ai rien demandé, mais si Virgin à besoin que je
+change ma carte pour mettre à jour leur réseau, pourquoi pas. Le courrier ne détail pas les raisons du changement. J'ai
 jusqu’au 10 octobre pour l'activer, procrastination oblige, je la mets de coté sans l'activer.
 
 *24 octobre 2012 vers 20h30* j'appel ma copine pour lui dire que je rentre, tout vas bien.
 
-*25 octobre 2012 au matin* j'allume mon portable et constate que je n'ai pas de réseau, ni voix, ni SMS, ni data, 
+*25 octobre 2012 au matin* j'allume mon portable et constate que je n'ai pas de réseau, ni voix, ni SMS, ni data,
 seulement les appels d'urgence.
 
-*25 octobre vers 13h00* n'ayant toujours pas de réseau, je contact le service client. On me demande de faire un test 
+*25 octobre vers 13h00* n'ayant toujours pas de réseau, je contact le service client. On me demande de faire un test
 croisé, je n'ai pas d'autre mobile sous la mains, je le ferrais le soir.
 
-*25 octobre au soir* je fait le teste croisé avec le portable de ma copine. Ma carte ne fonctionnant pas dans son mobile 
+*25 octobre au soir* je fait le teste croisé avec le portable de ma copine. Ma carte ne fonctionnant pas dans son mobile
 alors que l'inverse marche sans soucis.
 
 *26 octobre vers 13h00* j'appel une seconde fois le service client Virgin Mobile pour leur faire part du résultat du
@@ -59,7 +59,7 @@ teste croisé. Ils me demandent alors d'activer la carte reçue la semaine pass�
 de la carte. Celle-ci entrera en fonction le 5 octobre à 15h00. Parallèlement à cela, le service technique doit me
 rappeler sous 15 jours pour mon problème initial. Trouvant le délais de 15 jours un peu long on me rassure en me disant
 qu'un geste commercial sera fait pour cette période. Cette appel me fait alors
-[me poser des questions sur le sérieux de Virgin]({% post_url 2012/2012-09-26-stockage-de-mot-de-passe-en-clair-mauvaise-pratique-chez-mon-operateur-mobile %}).
+[me poser des questions sur le sérieux de Virgin]({% post_url 2012-09-26-stockage-de-mot-de-passe-en-clair-mauvaise-pratique-chez-mon-operateur-mobile %}).
 
 *5 octobre 2012 vers 15h20* après 11 jours sans mobile, ma nouvelle carte SIM s'active. J'ai perdu tout mes paramètres
 que je ressaisis à nouveau et je me rend alors compte que je suis maintenant connecté sur le réseau SFR.
